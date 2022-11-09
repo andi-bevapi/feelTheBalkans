@@ -1,0 +1,37 @@
+.footerSection{
+    background-color: #5f9ea0;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.footerContainer > h1{
+    margin: 10px;
+    color: #ffffff;
+    line-height: 1.9;
+    letter-spacing: 0em;
+    font-family: "Sebastian";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+}
+
+.igContainer{
+    text-decoration: none;
+}
+
+.igContainer > button {
+    text-align: center;
+    background-color: #cc7152;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+}
+
+.igContainer > button:hover{
+    background-color: #cc7152;
+}

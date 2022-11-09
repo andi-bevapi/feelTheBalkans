@@ -1,0 +1,152 @@
+.videoServiceContainer {
+    position: relative;
+    height: 500px;
+}
+
+.serviceVideo{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.serviceVideo > h1{
+    color: #ffffff;
+    margin: 0px;
+    text-transform: none;
+    font-size: 135px;
+    font-family: "Sebastian";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.videoServiceContainer > video{
+    inset: 0px auto auto;
+    transform: translateY(-500px);
+}
+
+.welcomeContainerService > h1{
+    color:#000000;
+    line-height: 0.9;
+    font-size: 50px !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Analogue";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.blogService{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blogService > a {
+    left:unset;
+    width: 100%;
+}
+
+.hostVacations{
+    background-color: #f4efe8;
+    overflow: hidden;
+    padding: 100px 0px;
+}
+
+.vacationText{
+    width: 60%;
+    margin: 40px auto;
+    font-size: 20px !important;
+    text-align: center !important;
+    color: #000000;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    font-size: 15px;
+    text-align: justify;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contactSectionContainer{
+    border: 10px solid #cc7152;
+    overflow: hidden;
+    margin: 80px 0px;
+    padding: 60px 0px;
+}
+
+.contactSection{
+    background-color: #ffffff;
+}
+
+.contactSection > h3 {
+    text-align: center; 
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: normal;
+}
+
+.contactSection > h1{
+    line-height: 0.9;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Analogue";
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.serviceFormContainer{
+    width: 60%;
+    margin: 0 auto !important;
+}
+
+.imageContainerService{
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.serviceSecion{
+    padding: 150px 0px;
+    background-color: #f4efe8;
+    overflow: hidden;
+}
+
+.awayContainer{
+    padding: 80px 0px;
+    background-color: #aeb297;
+    overflow: hidden;
+}
+
+.awayContainer > h1 {
+    color: #000000;
+    text-transform: none;
+    text-align: center;
+    font-size: 120px;
+    font-family: "Sebastian";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.awayContainer > h4{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.awayStar{
+    width: 211px;
+    height: 211px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding: 15px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+}

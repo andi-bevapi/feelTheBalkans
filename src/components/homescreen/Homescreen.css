@@ -1,0 +1,399 @@
+.mainContainer{
+    margin-top: -65px !important;
+    padding: 0px!important;
+    margin: 0px;
+}
+.video{
+    filter: brightness(0.5);
+}
+
+.videoDescription{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+.videoDescription > h4{
+    color: #ffffff;
+    margin: 0px;
+    text-transform: none;
+    letter-spacing: 0em;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.videoDescription > h1{
+    color: #ffffff;
+    margin: 0px;
+    text-transform: none;
+    font-size: 150px;
+    font-family: "Sebastian";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.videoDescription-explore{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+
+.videoDescription-explore{
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+}
+
+.explore-icon{
+    font-size: 60px !important;
+    color:#cc7152;
+    transform: rotate(180deg);
+}
+
+.welcomeSection{
+    margin: 150px 0px 50px 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.welcomeContainer > h1{
+    color: #000000;
+    line-height: 0.9;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Analogue Regular';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.welcomeParagraph , .motoTitle , .buttonContainer , .serviceParagraph{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.welcomeParagraph > p{
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.motoTitle > h1{
+    color: #aeb297;
+    text-align: center;
+    text-transform: none;
+    font-size: 90px;
+    font-family: "Sebastian";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.buttonContainer > h4{
+    text-align: center;
+}
+
+
+.buttonContainer{
+    text-align: center;
+}
+
+.buttonContainer > a{
+    text-decoration: none;
+}
+
+.buttonContainer > a > button , .exploreur > button{
+    background-color: #cc7152;
+    width: 250px;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+}
+
+.buttonContainer > a > button:hover{
+    background-color: #cc7152;
+}
+
+.servicesSection{
+    background-color: #f4efe8;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.serviceTitle > h1{
+    color: #000000;
+    line-height: 0.9;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Analogue";
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.serviceParagraph > p{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+}
+
+.service{
+    padding: 0 15px;
+}
+
+.serviceContainer{
+    height: 450px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-top: 7px solid #cc7152;
+    border-bottom: 7px solid #cc7152;
+    position: relative;
+}
+
+.serviceContainer > p{
+    height: 100%;
+    display: none;
+    background-color: #00000042;
+    margin: 0px;
+}
+
+.service:hover .serviceContainer > p{
+    display: block;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    text-align: center;
+}
+
+.serviceContainer > a {
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+   
+}
+
+.displayFlex{display: flex;}
+
+.subscribeSection{
+    background-color: #aeb297;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.subscribeImg > img{
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+.subscribeForm > h3{
+    color: #ffffff;
+    text-transform: none;
+    font-size: 75px;
+    text-align: center;
+    font-family: "Sebastian";
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.subscribeForm > p{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+}
+
+.subscribeButton{
+    background-color: #cc7152 !important;
+    width: 250px !important;
+    padding: 15px !important;
+    color: #ffffff !important;
+    font-size: 15px !important;
+    text-align: center !important;
+    font-family: 'Montserrat' !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+}
+
+.customWidth{
+    width: 80%;
+    margin: 0 auto;
+}
+.nameInput > div > input :hover{
+    border:1px solid #000000;
+}
+
+.imageContainer{
+    position: relative;
+}
+
+.secondImage{
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
+
+.explorateurSecion{
+    overflow: hidden;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.exploreur > h1{
+    margin: 10px;
+    color: rgba(0,0,0,1);
+    line-height: 0.9;
+    font-size: 50px;
+    text-align: left;
+    font-family: "Analogue";
+    font-weight: 400;
+    font-style: normal;
+    width: 50%;
+    border-bottom: 2px solid #aeb297;
+}
+
+.exploreur > p{
+    margin: 15px 10px;
+    width: 70%;
+    font-size: 20px;
+    text-align: left;
+    color: rgba(0,0,0,1);
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    font-size: 25px;
+    text-align: justify;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.exploreur > h2 {
+    margin: 20px 10px;
+    color: rgba(174,178,151,1);
+    text-transform: none;
+    font-size: 90px;
+    text-align: left;
+    font-family: 'Sebastian';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.exploreur > button:hover{
+    background-color: #cc7152 !important;
+}
+
+.blogPostsSection{
+    overflow: hidden;
+    background-color: #f4efe8;
+    padding-bottom: 100px;
+}
+
+.blogTitle > h1{
+    margin: 10px;
+    text-align: center !important;
+    color: rgba(0,0,0,1);
+    line-height: 0.9;
+    font-size: 50px;
+    text-align: left;
+    font-family: "Analogue";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.horizontalLine{
+    width: 25%;
+    height: 2px;
+    margin: 20px auto;
+    background-color: #aeb297;
+}
+
+.postImageContainer{
+    width: 301px;
+    height: 254px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-top: 7px solid #cc7152;
+    border-bottom: 7px solid #cc7152;
+}
+
+.postImage{
+    padding: 0 15px;
+}
+
+.imageContainerHome{
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.postDescription{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.postDescription > h3{
+    margin: 0px;
+    padding-top: 20px;
+    width: 70%;
+    margin: 0px 50px;
+    color: rgba(204,113,82,1);
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: normal;
+}
+
+.postDescription > p {
+    color: #000000;
+    line-height: 1.3;
+    font-size: 15px;
+    text-align: left;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.postIcon{
+    font-size: 50px !important;
+    color:#cc7152;
+}

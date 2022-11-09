@@ -1,0 +1,49 @@
+.videoContactContainer{
+    position: relative;
+    height: 500px;
+}
+
+.contactTitleSection{
+    margin: 50px 0px;
+}
+
+.titleContactContainer{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.titleContactContainer > p {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contactFormSection{
+    overflow: hidden;
+    padding: 80px 0px;
+}
+
+.formContainer{
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+    padding: 30px;
+    border: 10px solid #cc7152;
+}
+
+.formField{
+    width: 100%;
+    margin: 10px !important;
+}
+
+.submitFormContact{
+    margin: 10px !important;
+    width: 150px;
+    padding: 40px;
+    background-color: #cc7152 !important;
+    padding: 10px !important;
+}

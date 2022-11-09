@@ -1,0 +1,32 @@
+.carouselPosts{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 250px;
+}
+
+.carouselPostInfo > a{
+    text-decoration: none;
+}
+
+.carouselPostInfo > a > h1{
+    text-align: center;
+    color: #ffffff;
+    line-height: 0.9;
+    font-size: 50px;
+    font-family: "Analogue";
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.carouselPostInfo > p{
+    text-align: center;
+    font-size: 19px;
+    color: #ffffff;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+}
